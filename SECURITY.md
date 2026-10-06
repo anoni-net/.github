@@ -6,7 +6,7 @@
 
 ## 回報方式
 
-發現尚未修補的漏洞時，請寄信到 **whisper@anoni.net**，不要開公開的 issue。GitHub 的私下回報功能目前沒有開啟，請用信箱。
+發現尚未修補的漏洞時，請寄信到 **whisper@anoni.net**，不要開公開的 issue。Send 的 repo 另外開了 GitHub 的[私下回報功能](https://github.com/anoni-net/send/security/advisories/new)，其他 repo 請用信箱。
 
 需要加密時，用指紋為 `B7DF84305C7911D90D59A66061F66CF36EE386D4` 的 [PGP 公開金鑰](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc)，也可以在[聯絡頁](https://anoni.net/docs/contact/)取得。希望收到加密回覆時，請附上你的公開金鑰。
 
@@ -46,7 +46,7 @@ This policy covers repositories in the anoni-net organisation that do not have t
 
 ### Reporting a vulnerability
 
-Email **whisper@anoni.net** about unfixed vulnerabilities, and please do not open a public issue. GitHub's private vulnerability reporting is not enabled, so please use email.
+Email **whisper@anoni.net** about unfixed vulnerabilities, and please do not open a public issue. The Send repository also accepts reports through GitHub's [private vulnerability reporting](https://github.com/anoni-net/send/security/advisories/new); for other repositories, please use email.
 
 To encrypt your report, use our [PGP public key](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc) with fingerprint `B7DF84305C7911D90D59A66061F66CF36EE386D4`, also available on the [contact page](https://anoni.net/docs/en/contact/). If you would like an encrypted reply, include your public key.
 
