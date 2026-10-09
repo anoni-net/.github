@@ -9,7 +9,7 @@
 - [社群首頁 anoni.net](https://anoni.net/)：社群介紹、參與方式、專案與自架服務的目錄、活動與社群動態
 - [文件 anoni.net/docs](https://anoni.net/docs/)：從概念、工具到各種處境的準備，整理匿名網路與隱私的知識，也追蹤台灣的網路觀測與相關法規
 - [新聞導讀 anoni.net/news](https://anoni.net/news/)：從科技與開源的角度，導讀國際隱私、匿名網路與網路審查的新聞
-- [隱私推理遊戲 anoni.net/mystery](https://anoni.net/mystery/)：從一張照片的中繼資料、背景細節與文字習慣，找出不小心暴露身分的吹哨者，也有不需要 JavaScript 的靜態版與可列印的 PDF
+- [隱私推理遊戲 anoni.net/mystery](https://anoni.net/mystery/)：從一張照片的中繼資料、背景細節與文字習慣，找出不小心暴露身分的吹哨者，也有不需要 JavaScript 的靜態版、可列印的 PDF 與英文版
 - 自架服務：[Send](https://send.anoni.net)（端對端加密的檔案分享）、[CryptPad](https://cryptpad.anoni.net/)、[Etherpad](https://pad.anoni.net/)、[Matrix](https://matrix.anoni.net/)、[SearXNG](https://search.anoni.net/)，完整清單與帳號申請見[服務](https://anoni.net/services/)
 - 用 [Tor 瀏覽器](https://www.torproject.org/download/)可以連上我們的 [.onion 網站](http://anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/)
 
@@ -45,7 +45,7 @@ We are a community based in Taiwan that cares about anonymity and internet freed
 - [Community site at anoni.net](https://anoni.net/en/): who we are, how to take part, our projects and self-hosted services, events and community updates
 - [Docs at anoni.net/docs](https://anoni.net/docs/en/): guides to anonymity and privacy, from concepts and tools to preparing for different situations, plus network measurement and related laws in Taiwan
 - [News at anoni.net/news](https://anoni.net/news/en/): briefings on international privacy, anonymity and censorship news, written from a technology and open-source angle
-- [Privacy mystery at anoni.net/mystery](https://anoni.net/mystery/) (in Traditional Chinese): unmask a whistleblower from a photo's metadata, background details and writing style, with a no-JavaScript edition and a printable PDF
+- [Privacy mystery at anoni.net/mystery](https://anoni.net/mystery/en/): unmask a whistleblower from a photo's metadata, background details and writing style, with a no-JavaScript edition and a printable PDF
 - Self-hosted services: [Send](https://send.anoni.net) (end-to-end encrypted file sharing), [CryptPad](https://cryptpad.anoni.net/), [Etherpad](https://pad.anoni.net/), [Matrix](https://matrix.anoni.net/), [SearXNG](https://search.anoni.net/); see [services](https://anoni.net/en/services/) for the full list and how to get an account
 - Our [.onion site](http://anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/) is reachable with [Tor Browser](https://www.torproject.org/download/)
 
