@@ -8,9 +8,9 @@
 
 發現尚未修補的漏洞時，請寄信到 **whisper@anoni.net**，不要開公開的 issue。Send 的 repo 另外開了 GitHub 的[私下回報功能](https://github.com/anoni-net/send/security/advisories/new)，其他 repo 請用信箱。
 
-需要加密時，用指紋為 `B7DF84305C7911D90D59A66061F66CF36EE386D4` 的 [PGP 公開金鑰](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc)，也可以在[聯絡頁](https://anoni.net/docs/contact/)取得。希望收到加密回覆時，請附上你的公開金鑰。
+需要加密時，用指紋為 `B7DF84305C7911D90D59A66061F66CF36EE386D4` 的 [PGP 公開金鑰](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc)，也可以在[聯絡頁](https://anoni.net/contact/)取得。希望收到加密回覆時，請附上你的公開金鑰。
 
-請在信裡寫出受影響的 repo、網址或服務，以及漏洞的影響與重現步驟。內容涉及個人資料或未公開的研究時，先看[上傳機敏資訊流程](https://anoni.net/docs/community/upload-sensitive/)。
+請在信裡寫出受影響的 repo、網址或服務，以及漏洞的影響與重現步驟。內容涉及個人資料或未公開的研究時，先看[上傳機敏資訊流程](https://anoni.net/join/upload-sensitive/)。
 
 ## 處理方式
 
@@ -23,8 +23,8 @@
 範圍內：
 
 - anoni-net 組織底下的 repo，包括原始碼、建置與 CI 設定
-- anoni.net 的網站，包括文件站、新聞導讀與對應的 .onion 網站
-- [社群自架服務](https://anoni.net/docs/community/tools/)頁面列出的各項服務，包括運作中的服務與部署設定
+- anoni.net 的網站，包括社群首頁、文件站、新聞導讀、隱私推理遊戲、`anoni.net/api/` 的 Pulse API，以及對應的 .onion 網站
+- [社群自架服務](https://anoni.net/services/)頁面列出的各項服務，包括運作中的服務與部署設定
 
 範圍外：
 
@@ -48,9 +48,9 @@ This policy covers repositories in the anoni-net organisation that do not have t
 
 Email **whisper@anoni.net** about unfixed vulnerabilities, and please do not open a public issue. The Send repository also accepts reports through GitHub's [private vulnerability reporting](https://github.com/anoni-net/send/security/advisories/new); for other repositories, please use email.
 
-To encrypt your report, use our [PGP public key](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc) with fingerprint `B7DF84305C7911D90D59A66061F66CF36EE386D4`, also available on the [contact page](https://anoni.net/docs/en/contact/). If you would like an encrypted reply, include your public key.
+To encrypt your report, use our [PGP public key](https://anoni.net/B7DF84305C7911D90D59A66061F66CF36EE386D4.asc) with fingerprint `B7DF84305C7911D90D59A66061F66CF36EE386D4`, also available on the [contact page](https://anoni.net/en/contact/). If you would like an encrypted reply, include your public key.
 
-Please include the affected repository, URL or service, the impact, and steps to reproduce. If the report involves personal data or unpublished research, see our [process for sharing sensitive material](https://anoni.net/docs/en/community/upload-sensitive/) first.
+Please include the affected repository, URL or service, the impact, and steps to reproduce. If the report involves personal data or unpublished research, see our [process for sharing sensitive material](https://anoni.net/en/join/upload-sensitive/) first.
 
 ### How we handle reports
 
@@ -63,8 +63,8 @@ Please do not disclose details publicly until a fix is out or a date we agree on
 In scope:
 
 - Repositories in the anoni-net organisation, including source, build and CI configuration
-- The anoni.net websites, including the docs, the news briefings and their .onion sites
-- The services listed under [our self-hosted services](https://anoni.net/docs/en/community/tools/), both the running services and their deployment configuration
+- The anoni.net websites, including the community site, the docs, the news briefings, the privacy mystery game, the Pulse API at `anoni.net/api/`, and their .onion sites
+- The services listed under [our self-hosted services](https://anoni.net/en/services/), both the running services and their deployment configuration
 
 Out of scope:
 
