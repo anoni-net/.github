@@ -8,9 +8,11 @@
 
 - **[文件站](https://anoni.net/docs/)**：見 docs repo 的 [CONTRIBUTING.md](https://github.com/anoni-net/docs/blob/main/CONTRIBUTING.md)，翻譯認領、內容提案、來源建議與文件錯誤都有對應的 issue 表單
 - **[新聞導讀](https://anoni.net/news/)**：見 news repo 的 [README](https://github.com/anoni-net/news/blob/main/README.md)，寫稿流程在 [AGENTS.md](https://github.com/anoni-net/news/blob/main/AGENTS.md)
+- **[社群首頁](https://anoni.net/)**：見 www repo 的 [README](https://github.com/anoni-net/www/blob/main/README.md)，頁面是 `pages/` 底下的 Markdown
+- **觀測工具**：[Pulse](https://github.com/anoni-net/pulse) 與 [ASN Coverage](https://github.com/anoni-net/asn-coverage) 的開發方式、套件升級與部署，寫在各自的 README 與 `AGENTS.md`
 - **其他 repo**：先讀各自的 README，再開 issue 說明想改什麼
 
-寫作與協作的規則以[貢獻者百科](https://anoni.net/docs/community/contributor-handbook/)為準，包括寫作風格、翻譯，以及用 AI 協作工具時的做法。
+文字照社群首頁的[寫作風格規範](https://anoni.net/join/writing-style/)寫，三個網站與各 repo 的說明文件共用這一份。文件站的檔名、PR 流程、翻譯，以及用 AI 協作工具時的做法，見[貢獻者百科](https://anoni.net/docs/community/contributor-handbook/)。
 
 ## 流程
 
@@ -25,11 +27,11 @@
 
 ## 安全與隱私
 
-發現安全漏洞時不要開公開的 issue，照組織的 [SECURITY.md](https://github.com/anoni-net/.github/blob/main/SECURITY.md) 私下回報，repo 有自己的 SECURITY.md 時以那一份為準。內容涉及受害者、個人資料或未公開的研究時，先看[上傳機敏資訊流程](https://anoni.net/docs/community/upload-sensitive/)。
+發現安全漏洞時不要開公開的 issue，照組織的 [SECURITY.md](https://github.com/anoni-net/.github/blob/main/SECURITY.md) 私下回報，repo 有自己的 SECURITY.md 時以那一份為準。內容涉及受害者、個人資料或未公開的研究時，先看[上傳機敏資訊流程](https://anoni.net/join/upload-sensitive/)。
 
 ## 聯絡
 
-日常討論在 Matrix，帳號與使用方式見[社群自架服務](https://anoni.net/docs/community/tools/)。不方便公開討論的事項，寄信到 whisper@anoni.net（PGP 金鑰見[聯絡頁](https://anoni.net/docs/contact/)）。
+日常討論在 Matrix，帳號與使用方式見[社群自架服務](https://anoni.net/services/)。不方便公開討論的事項，寄信到 whisper@anoni.net（PGP 金鑰見[聯絡頁](https://anoni.net/contact/)）。
 
 ---
 
@@ -43,9 +45,11 @@ Contributions to the anoni.net docs, news briefings and tools are welcome. This 
 
 - **[Docs](https://anoni.net/docs/en/)**: see [CONTRIBUTING.md](https://github.com/anoni-net/docs/blob/main/CONTRIBUTING.md) in the docs repository, which has issue forms for claiming translations, proposing content, suggesting sources and reporting errors
 - **[News briefings](https://anoni.net/news/en/)**: see the [README](https://github.com/anoni-net/news/blob/main/README.md) in the news repository, with the writing workflow in [AGENTS.md](https://github.com/anoni-net/news/blob/main/AGENTS.md)
+- **[Community site](https://anoni.net/en/)**: see the [README](https://github.com/anoni-net/www/blob/main/README.md) in the www repository; pages are Markdown files under `pages/`
+- **Measurement tools**: development, dependency upgrades and deployment for [Pulse](https://github.com/anoni-net/pulse) and [ASN Coverage](https://github.com/anoni-net/asn-coverage) are covered in each repository's README and `AGENTS.md`
 - **Other repositories**: read the README first, then open an issue describing what you would like to change
 
-Follow the [contributor handbook](https://anoni.net/docs/en/community/contributor-handbook/) for how we write and work together, including style, translation and the use of AI tools.
+Write to the [writing style](https://anoni.net/en/join/writing-style/) on the community site, which the three sites and every repository's documentation share. File naming, the pull request process, translation and the use of AI tools on the docs site are in the [contributor handbook](https://anoni.net/docs/en/community/contributor-handbook/).
 
 ### Workflow
 
@@ -60,8 +64,8 @@ Contributions are released under the licence of the repository they go into; see
 
 ### Security and privacy
 
-Do not open public issues about security vulnerabilities. Report them privately as described in the organisation's [SECURITY.md](https://github.com/anoni-net/.github/blob/main/SECURITY.md), or the repository's own SECURITY.md where it has one. If your contribution involves victims, personal data or unpublished research, see our [process for sharing sensitive material](https://anoni.net/docs/en/community/upload-sensitive/) first.
+Do not open public issues about security vulnerabilities. Report them privately as described in the organisation's [SECURITY.md](https://github.com/anoni-net/.github/blob/main/SECURITY.md), or the repository's own SECURITY.md where it has one. If your contribution involves victims, personal data or unpublished research, see our [process for sharing sensitive material](https://anoni.net/en/join/upload-sensitive/) first.
 
 ### Contact
 
-Day-to-day discussion happens on Matrix; see [our self-hosted services](https://anoni.net/docs/en/community/tools/) for accounts and usage. For matters not suited to public discussion, email whisper@anoni.net (PGP key on the [contact page](https://anoni.net/docs/en/contact/)).
+Day-to-day discussion happens on Matrix; see [our self-hosted services](https://anoni.net/en/services/) for accounts and usage. For matters not suited to public discussion, email whisper@anoni.net (PGP key on the [contact page](https://anoni.net/en/contact/)).
