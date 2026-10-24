@@ -2,14 +2,16 @@
 
 **正體中文** | [English](#english)
 
-歡迎一起參與匿名網路社群 anoni.net 的文件、新聞導讀與工具。這份說明適用於 anoni-net 組織底下沒有自己 `CONTRIBUTING.md` 的 repo，repo 有自己的說明時以那一份為準。
+歡迎一起參與匿名網路社群 anoni.net 的文件、新聞導讀、遊戲與工具。這份說明適用於 anoni-net 組織底下沒有自己 `CONTRIBUTING.md` 的 repo，repo 有自己的說明時以那一份為準。
 
 ## 各專案的入口
 
 - **[文件站](https://anoni.net/docs/)**：見 docs repo 的 [CONTRIBUTING.md](https://github.com/anoni-net/docs/blob/main/CONTRIBUTING.md)，翻譯認領、內容提案、來源建議與文件錯誤都有對應的 issue 表單
 - **[新聞導讀](https://anoni.net/news/)**：見 news repo 的 [README](https://github.com/anoni-net/news/blob/main/README.md)，寫稿流程在 [AGENTS.md](https://github.com/anoni-net/news/blob/main/AGENTS.md)
-- **[社群首頁](https://anoni.net/)**：見 www repo 的 [README](https://github.com/anoni-net/www/blob/main/README.md)，頁面是 `pages/` 底下的 Markdown
-- **觀測工具**：[Pulse](https://github.com/anoni-net/pulse) 與 [ASN Coverage](https://github.com/anoni-net/asn-coverage) 的開發方式、套件升級與部署，寫在各自的 README 與 `AGENTS.md`
+- **[社群首頁](https://anoni.net/)**：見 www repo 的 [README](https://github.com/anoni-net/www/blob/main/README.md)，頁面是 `pages/` 底下的 Markdown，技術文章在 `pages/<語系>/articles/`
+- **[檔案工作台](https://anoni.net/gears/)**：見 gears repo 的 [README](https://github.com/anoni-net/gears/blob/main/README.md)，設計與測試方式在 [AGENTS.md](https://github.com/anoni-net/gears/blob/main/AGENTS.md)。想要的功能也可以在工作台的「建議與回饋」留言
+- **[隱私推理遊戲](https://anoni.net/mystery/)**：見 privacy-mystery repo 的 [README](https://github.com/anoni-net/privacy-mystery/blob/main/README.md)，issue 與 PR 不寫案件的解答
+- **觀測工具**：[Tor 中繼節點觀測（Pulse）](https://github.com/anoni-net/pulse)與 [OONI 觀測涵蓋率（ASN Coverage）](https://github.com/anoni-net/asn-coverage)的開發方式、套件升級與部署，寫在各自的 README 與 `AGENTS.md`
 - **其他 repo**：先讀各自的 README，再開 issue 說明想改什麼
 
 文字照社群首頁的[寫作風格規範](https://anoni.net/join/writing-style/)寫，三個網站與各 repo 的說明文件共用這一份。文件站的檔名、PR 流程、翻譯，以及用 AI 協作工具時的做法，見[貢獻者百科](https://anoni.net/docs/community/contributor-handbook/)。
@@ -39,14 +41,16 @@
 
 [正體中文](#參與貢獻--contributing) | **English**
 
-Contributions to the anoni.net docs, news briefings and tools are welcome. This guide applies to repositories in the anoni-net organisation that do not have their own `CONTRIBUTING.md`. Where a repository has one, that one applies.
+Contributions to the anoni.net docs, news briefings, games and tools are welcome. This guide applies to repositories in the anoni-net organisation that do not have their own `CONTRIBUTING.md`. Where a repository has one, that one applies.
 
 ### Where to start
 
 - **[Docs](https://anoni.net/docs/en/)**: see [CONTRIBUTING.md](https://github.com/anoni-net/docs/blob/main/CONTRIBUTING.md) in the docs repository, which has issue forms for claiming translations, proposing content, suggesting sources and reporting errors
 - **[News briefings](https://anoni.net/news/en/)**: see the [README](https://github.com/anoni-net/news/blob/main/README.md) in the news repository, with the writing workflow in [AGENTS.md](https://github.com/anoni-net/news/blob/main/AGENTS.md)
-- **[Community site](https://anoni.net/en/)**: see the [README](https://github.com/anoni-net/www/blob/main/README.md) in the www repository; pages are Markdown files under `pages/`
-- **Measurement tools**: development, dependency upgrades and deployment for [Pulse](https://github.com/anoni-net/pulse) and [ASN Coverage](https://github.com/anoni-net/asn-coverage) are covered in each repository's README and `AGENTS.md`
+- **[Community site](https://anoni.net/en/)**: see the [README](https://github.com/anoni-net/www/blob/main/README.md) in the www repository; pages are Markdown files under `pages/`, with articles in `pages/<locale>/articles/`
+- **[File Workbench](https://anoni.net/gears/en/)**: see the [README](https://github.com/anoni-net/gears/blob/main/README.md) in the gears repository, with design and testing notes in [AGENTS.md](https://github.com/anoni-net/gears/blob/main/AGENTS.md). Feature requests are also welcome through "Suggestions & feedback" in the workbench
+- **[Privacy Mysteries](https://anoni.net/mystery/en/)**: see the [README](https://github.com/anoni-net/privacy-mystery/blob/main/README.md) in the privacy-mystery repository; please keep case solutions out of issues and pull requests
+- **Measurement tools**: development, dependency upgrades and deployment for [Tor Relay Watch (Pulse)](https://github.com/anoni-net/pulse) and [OONI Coverage (ASN Coverage)](https://github.com/anoni-net/asn-coverage) are covered in each repository's README and `AGENTS.md`
 - **Other repositories**: read the README first, then open an issue describing what you would like to change
 
 Write to the [writing style](https://anoni.net/en/join/writing-style/) on the community site, which the three sites and every repository's documentation share. File naming, the pull request process, translation and the use of AI tools on the docs site are in the [contributor handbook](https://anoni.net/docs/en/community/contributor-handbook/).
