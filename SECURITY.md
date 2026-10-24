@@ -23,7 +23,8 @@
 範圍內：
 
 - anoni-net 組織底下的 repo，包括原始碼、建置與 CI 設定
-- anoni.net 的網站，包括社群首頁、文件站、新聞導讀、隱私推理遊戲、`anoni.net/api/` 的 Pulse API，以及對應的 .onion 網站
+- anoni.net 的網站，包括社群首頁、文件站、新聞導讀、檔案工作台、隱私推理遊戲、`anoni.net/api/` 的 Pulse API，以及對應的 .onion 網站與 IPFS 鏡像
+- 檔案工作台的遠端傳送用到的中繼伺服器
 - [社群自架服務](https://anoni.net/services/)頁面列出的各項服務，包括運作中的服務與部署設定
 
 範圍外：
@@ -63,7 +64,8 @@ Please do not disclose details publicly until a fix is out or a date we agree on
 In scope:
 
 - Repositories in the anoni-net organisation, including source, build and CI configuration
-- The anoni.net websites, including the community site, the docs, the news briefings, the privacy mystery game, the Pulse API at `anoni.net/api/`, and their .onion sites
+- The anoni.net websites, including the community site, the docs, the news briefings, the File Workbench, the Privacy Mysteries, the Pulse API at `anoni.net/api/`, and their .onion sites and IPFS mirror
+- The relay server used by remote transfer in the File Workbench
 - The services listed under [our self-hosted services](https://anoni.net/en/services/), both the running services and their deployment configuration
 
 Out of scope:
