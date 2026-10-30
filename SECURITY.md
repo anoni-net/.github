@@ -25,17 +25,18 @@
 - anoni-net 組織底下的 repo，包括原始碼、建置與 CI 設定
 - anoni.net 的網站，包括社群首頁、文件站、新聞導讀、檔案工作台、隱私推理遊戲、`anoni.net/api/` 的 Pulse API，以及對應的 .onion 網站與 IPFS 鏡像
 - 檔案工作台的遠端傳送用到的中繼伺服器
+- Vessel 的入口網站 `vessel.anoni.net` 與 VPN 節點
 - [社群自架服務](https://anoni.net/services/)頁面列出的各項服務，包括運作中的服務與部署設定
 
 範圍外：
 
 - 只靠大量請求造成的服務中斷，以及沒有實際影響的自動掃描結果
-- 上游軟體本身的漏洞，例如 Tor、CryptPad、Matrix 伺服器軟體，請回報給各自的專案
+- 上游軟體本身的漏洞，例如 Tor、AmneziaWG、CryptPad、Matrix 伺服器軟體，請回報給各自的專案
 - 有人利用服務放置不當內容屬於管理問題，請同樣寄到這個信箱，我們會處理
 
 ## 測試的界線
 
-anoni.net 自架的服務裡有使用者的私密資料。測試時不要存取或保留他人的資料，例如 Send 傳檔服務上的檔案、Matrix 的訊息或 CryptPad 的文件。請不要影響服務運作，證明漏洞存在就停止測試。
+anoni.net 自架的服務裡有使用者的私密資料。測試時不要存取或保留他人的資料，例如 Send 傳檔服務上的檔案、Matrix 的訊息或 CryptPad 的文件。請不要影響服務運作，證明漏洞存在就停止測試。Vessel 的節點上有其他使用者的連線，不要攔截或分析他人的流量。
 
 ---
 
@@ -66,14 +67,15 @@ In scope:
 - Repositories in the anoni-net organisation, including source, build and CI configuration
 - The anoni.net websites, including the community site, the docs, the news briefings, the File Workbench, the Privacy Mysteries, the Pulse API at `anoni.net/api/`, and their .onion sites and IPFS mirror
 - The relay server used by remote transfer in the File Workbench
+- The Vessel portal at `vessel.anoni.net` and its VPN nodes
 - The services listed under [our self-hosted services](https://anoni.net/en/services/), both the running services and their deployment configuration
 
 Out of scope:
 
 - Denial of service through sheer volume, and automated scanner output with no demonstrated impact
-- Vulnerabilities in upstream software such as Tor, CryptPad or Matrix server software, which should go to those projects
+- Vulnerabilities in upstream software such as Tor, AmneziaWG, CryptPad or Matrix server software, which should go to those projects
 - Abuse of a service to host unwanted content. That is a moderation matter; email the same address and we will act on it
 
 ### Testing boundaries
 
-The services anoni.net self-hosts hold people's private data. When testing, do not access or keep other people's data, such as files on our Send instance, Matrix messages or CryptPad documents, and do not disrupt the services. Stop once you have shown the vulnerability exists.
+The services anoni.net self-hosts hold people's private data. When testing, do not access or keep other people's data, such as files on our Send instance, Matrix messages or CryptPad documents, and do not disrupt the services. Stop once you have shown the vulnerability exists. Vessel nodes carry other people's connections, so do not intercept or analyse anyone else's traffic.

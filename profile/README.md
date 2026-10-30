@@ -11,6 +11,7 @@
 - [新聞導讀 anoni.net/news](https://anoni.net/news/)：從科技與開源的角度，導讀國際隱私、匿名網路與網路審查的新聞
 - [檔案工作台 anoni.net/gears](https://anoni.net/gears/)：在瀏覽器裡清除中繼資料、遮蔽個資、加密要交出去的檔案，也替收到的檔案整理查證線索，檔案預設不離開裝置
 - [隱私推理遊戲 anoni.net/mystery](https://anoni.net/mystery/)：每個案件是一份委託，從照片、信件、檔案與網站裡找出破綻，有正體中文、简体中文與英文版，也有不需要 JavaScript 的靜態版與可列印的 PDF
+- [Vessel vessel.anoni.net](https://vessel.anoni.net/)：社群為身邊的人架設的 VPN，在學校、旅館、出國這些常連不上 VPN 的地方也能放心上網。不需要 email，不用付費，目前封閉測試中，只透過社群成員邀請
 - 自架服務：[Send](https://send.anoni.net)（端對端加密的檔案分享）、[CryptPad](https://cryptpad.anoni.net/)、[Etherpad](https://pad.anoni.net/)、[Matrix](https://matrix.anoni.net/)、[SearXNG](https://search.anoni.net/)、[Formbricks](https://form.anoni.net/)（表單與問卷），完整清單與帳號申請見[服務](https://anoni.net/services/)
 - 用 [Tor 瀏覽器](https://www.torproject.org/download/)可以連上我們的 [.onion 網站](http://anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/)，網站也有 [IPFS 鏡像](https://ipfs.anoni.net/)
 
@@ -23,6 +24,7 @@
 | [news](https://github.com/anoni-net/news) | anoni.net/news 的文章與網站原始碼 |
 | [gears](https://github.com/anoni-net/gears) | anoni.net/gears 檔案工作台的原始碼 |
 | [privacy-mystery](https://github.com/anoni-net/privacy-mystery) | anoni.net/mystery 隱私推理遊戲的案件與網站原始碼 |
+| [vessel](https://github.com/anoni-net/vessel) | Vessel 的入口網站與 VPN 節點的原始碼，節點使用 AmneziaWG 並加上混淆 |
 | [pulse](https://github.com/anoni-net/pulse) | Tor 中繼節點觀測（Pulse）的資料收集與 API，每小時收集臺灣與鄰近地區的 Tor 中繼節點資料，社群首頁觀測頁的資料來源 |
 | [asn-coverage](https://github.com/anoni-net/asn-coverage) | OONI 觀測涵蓋率（ASN Coverage）的命令列工具，分析 OONI 觀測資料在各網路（ASN）的涵蓋率，找出需要更多測試的盲點 |
 | [onionoo-fastapi](https://github.com/anoni-net/onionoo-fastapi) | AI 助理的 Tor 節點查詢（onionoo MCP）背後的服務，Tor Onionoo API 的 OpenAPI 代理與 MCP 伺服器 |
@@ -50,6 +52,7 @@ We are a community based in Taiwan that cares about anonymity and internet freed
 - [News at anoni.net/news](https://anoni.net/news/en/): briefings on international privacy, anonymity and censorship news, written from a technology and open-source angle
 - [File Workbench at anoni.net/gears](https://anoni.net/gears/en/): strip metadata, redact and encrypt files before you hand them over, and lay out leads to verify in files you receive, with files kept on your device by default
 - [Privacy Mysteries at anoni.net/mystery](https://anoni.net/mystery/en/): each case is a request in which you find the leaks in photos, emails, files and websites, in Traditional Chinese, Simplified Chinese and English, with a no-JavaScript edition and a printable PDF
+- [Vessel at vessel.anoni.net](https://vessel.anoni.net/en/): a VPN the community runs for the people around it, so you can get online with confidence where VPNs often fail, such as at school, in hotels or abroad. No email address and no fee. It is in closed beta, with invites from community members only
 - Self-hosted services: [Send](https://send.anoni.net) (end-to-end encrypted file sharing), [CryptPad](https://cryptpad.anoni.net/), [Etherpad](https://pad.anoni.net/), [Matrix](https://matrix.anoni.net/), [SearXNG](https://search.anoni.net/), [Formbricks](https://form.anoni.net/) (forms and surveys); see [services](https://anoni.net/en/services/) for the full list and how to get an account
 - Our [.onion site](http://anoninetru5tflukgfaehun7q6khowgmymcff3gtk5oyesqazhmfxtyd.onion/) is reachable with [Tor Browser](https://www.torproject.org/download/), and the sites also have an [IPFS mirror](https://ipfs.anoni.net/)
 
@@ -62,6 +65,7 @@ We are a community based in Taiwan that cares about anonymity and internet freed
 | [news](https://github.com/anoni-net/news) | Articles and site source for anoni.net/news |
 | [gears](https://github.com/anoni-net/gears) | Source for the File Workbench at anoni.net/gears |
 | [privacy-mystery](https://github.com/anoni-net/privacy-mystery) | Cases and site source for the Privacy Mysteries at anoni.net/mystery |
+| [vessel](https://github.com/anoni-net/vessel) | Source for the Vessel portal and its VPN nodes, which run AmneziaWG with obfuscation |
 | [pulse](https://github.com/anoni-net/pulse) | Data collection and API behind Tor Relay Watch (Pulse), collecting Tor relay data for Taiwan and nearby regions every hour for the measurement pages on the community site |
 | [asn-coverage](https://github.com/anoni-net/asn-coverage) | The command-line tool behind OONI Coverage (ASN Coverage), measuring how well each network (ASN) is covered by OONI measurements to find the blind spots that need more testing |
 | [onionoo-fastapi](https://github.com/anoni-net/onionoo-fastapi) | The service behind Tor relay lookup for AI assistants (onionoo MCP), an OpenAPI proxy and MCP server for the Tor Onionoo API |

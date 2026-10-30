@@ -11,6 +11,7 @@
 - **[社群首頁](https://anoni.net/)**：見 www repo 的 [README](https://github.com/anoni-net/www/blob/main/README.md)，頁面是 `pages/` 底下的 Markdown，技術文章在 `pages/<語系>/articles/`
 - **[檔案工作台](https://anoni.net/gears/)**：見 gears repo 的 [README](https://github.com/anoni-net/gears/blob/main/README.md)，設計與測試方式在 [AGENTS.md](https://github.com/anoni-net/gears/blob/main/AGENTS.md)。想要的功能也可以在工作台的「建議與回饋」留言
 - **[隱私推理遊戲](https://anoni.net/mystery/)**：見 privacy-mystery repo 的 [README](https://github.com/anoni-net/privacy-mystery/blob/main/README.md)，issue 與 PR 不寫案件的解答
+- **[Vessel](https://vessel.anoni.net/)**：見 vessel repo 的 [README](https://github.com/anoni-net/vessel/blob/main/README.md)，入口網站與節點的開發、部署方式在 [AGENTS.md](https://github.com/anoni-net/vessel/blob/main/AGENTS.md)。連不上或有建議時，也可以用 Vessel 的[意見回覆](https://vessel.anoni.net/feedback/)
 - **觀測工具**：[Tor 中繼節點觀測（Pulse）](https://github.com/anoni-net/pulse)與 [OONI 觀測涵蓋率（ASN Coverage）](https://github.com/anoni-net/asn-coverage)的開發方式、套件升級與部署，寫在各自的 README 與 `AGENTS.md`
 - **其他 repo**：先讀各自的 README，再開 issue 說明想改什麼
 
@@ -50,6 +51,7 @@ Contributions to the anoni.net docs, news briefings, games and tools are welcome
 - **[Community site](https://anoni.net/en/)**: see the [README](https://github.com/anoni-net/www/blob/main/README.md) in the www repository; pages are Markdown files under `pages/`, with articles in `pages/<locale>/articles/`
 - **[File Workbench](https://anoni.net/gears/en/)**: see the [README](https://github.com/anoni-net/gears/blob/main/README.md) in the gears repository, with design and testing notes in [AGENTS.md](https://github.com/anoni-net/gears/blob/main/AGENTS.md). Feature requests are also welcome through "Suggestions & feedback" in the workbench
 - **[Privacy Mysteries](https://anoni.net/mystery/en/)**: see the [README](https://github.com/anoni-net/privacy-mystery/blob/main/README.md) in the privacy-mystery repository; please keep case solutions out of issues and pull requests
+- **[Vessel](https://vessel.anoni.net/en/)**: see the [README](https://github.com/anoni-net/vessel/blob/main/README.md) in the vessel repository, with development and deployment notes for the portal and nodes in [AGENTS.md](https://github.com/anoni-net/vessel/blob/main/AGENTS.md). If you can't connect or have a suggestion, you can also use [feedback](https://vessel.anoni.net/en/feedback/) on the site
 - **Measurement tools**: development, dependency upgrades and deployment for [Tor Relay Watch (Pulse)](https://github.com/anoni-net/pulse) and [OONI Coverage (ASN Coverage)](https://github.com/anoni-net/asn-coverage) are covered in each repository's README and `AGENTS.md`
 - **Other repositories**: read the README first, then open an issue describing what you would like to change
 
